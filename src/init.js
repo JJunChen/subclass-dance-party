@@ -39,5 +39,8 @@ $(document).ready(function() {
       window.dancers[i].lineUp(top, space * i + 50, counter);
     }
   });
+  $('.dancer').on('click', function(event) {
+    console.log(1);
+  });
 });
 
