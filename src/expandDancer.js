@@ -16,8 +16,8 @@ makeExpandDancer.prototype.constructor = makeExpandDancer;
 makeExpandDancer.prototype.step = function() {
   var left = this.left;
   var top = this.top;
-  var height = $("body").height();
-  var width = $("body").width();
+  var height = $('body').height();
+  var width = $('body').width();
   var self = this;
   // call the old version of step at the beginning of any call to this new version of step
   // makeDancer.prototype.step.call(this);
